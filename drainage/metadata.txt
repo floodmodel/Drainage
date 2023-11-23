@@ -1,0 +1,56 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Drainage
+qgisMinimumVersion=3.10
+qgisMaximumVersion=3.99
+description=the hydro DEM analysis with the TauDEM
+about=Drainage is a plugin for the hydro DEM analysis with the TauDEM. It can produce the No-sink-DEM, FD(Flow Direction , D8), FA(Flow Accumulation), Stream and watershed. 
+version=0.1.9
+author=KICT, Hermesys
+email=info@hermesys.co.kr
+
+
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+changelog=
+      0.1.9
+        - Change to not modify system environment variables
+        - Set file dialog's path as DEM path
+      0.1.8
+        - Support TauDEM 5.3.1
+      0.1.7
+        - Fix Uninstall bug
+      0.1.6
+        - Fix bug
+          - Cannot create FD files
+      0.1.5
+        - Add Logger for debugging
+        - Refactoring code
+      0.1.4
+        - Release at public repository
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=https://github.com/floodmodel/Plugin_repository_QGIS3.10
+tracker=https://github.com/floodmodel/Plugin_repository_QGIS3.10/issues
+repository=https://github.com/floodmodel/Plugin_repository_QGIS3.10.git
+category=Plugins
+icon=icon.png
+
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
